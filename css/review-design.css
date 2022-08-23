@@ -1,0 +1,307 @@
+body{
+    background-image: url(design6.png);
+    background-size: cover;
+    overflow-x: hidden;
+}
+h1{
+    text-align: center;
+    color: white;
+    background-color: rgb(4,73,138);
+    border-radius: 50px;
+    width: fit-content;
+    padding:  10px 40px;
+    margin-top: 20px;
+    font-family: 'Times New Roman', serif;
+    position: relative;
+    left: 430px;
+}
+.h1{
+    left : 530px ; 
+}
+p{
+    color: rgb(4,73,138);
+    font-size: large;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea{
+    position: fixed;
+    left: 38%;
+    height: 140px;
+    width: 300px;
+    border-color: rgb(4,73,138);
+}
+#comment{
+    position: fixed;
+    left: 38%;  
+    color: rgb(4,73,138);
+}
+#rate{
+    position: fixed;
+    top: 45%;
+    left: 38%;
+    color: rgb(4,73,138);
+}
+#rate1{
+    position: fixed;
+    top: 35%;
+    left: 38%;
+    color: rgb(4,73,138);
+    
+}
+#select1{
+    position: fixed;
+    top: 35%;
+    left: 47%;   
+
+}
+select{
+    position: fixed;
+    top: 40%;
+    left: 47%;
+}
+input{
+    position: fixed;
+    top: 50%;
+    left: 35%;
+}
+
+.submit{
+
+    background-color: transparent;
+    margin: 50px 500px 0 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: fixed;
+    top: 38%;
+    left: 31%;
+    cursor: pointer;
+    width: 75px;
+   
+}
+
+#back{
+
+    background-color: transparent;
+    margin: 50px 500px 0 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    position: fixed;
+    top: 38%;
+    left: 25%;
+    cursor: pointer;
+    width: 75px;
+   
+}
+
+.submit:hover{
+    background-image: url(animals.jpg);
+    color: white;
+}
+
+#back:hover{
+    background-image: url(animals.jpg);
+    color: white;
+}
+
+.button1{
+    background-color: transparent;
+    margin: 50px 500px 0 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: fixed;
+    top: 33%;
+    left: 27%;
+    cursor: pointer;
+}
+
+#backAdmin{
+    background-color: transparent;
+    margin: 50px 500px 0 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: fixed;
+    top: 39%;
+    left: 27%;
+    cursor: pointer;
+}
+
+.button1:hover{
+    background-image: url(animals.jpg);
+    color: white;
+}
+
+#backAdmin:hover{
+    background-image: url(animals.jpg);
+    color: white;
+}
+h1{
+                 
+    position: relative;
+    left: 455px;
+}
+.buttoncontact{
+background-color: transparent;
+/* margin: 50px 500px 0 200px; */
+margin: 96px 500px 0 200px;
+text-align: center;
+font-weight: bold;
+color: #04498A;
+border-style: solid;
+border-color: #708090;
+border-radius: 30px;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100%;
+position: fixed;
+top: 33%;
+left: 25%;
+cursor: pointer;
+}
+.buttoncontact:hover{
+background-image: url(image//animals.jpg);
+color: white;
+}
+#backrev {
+background-color: transparent;
+/* margin: 76px 465px 0 200px; */
+margin: 126px 465px 0 200px;
+text-align: center;
+font-weight: bold;
+color: #04498A;
+border-style: solid;
+border-color: #708090;
+border-radius: 30px;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100%;
+position: fixed;
+top: 39%;
+left: 25%;
+cursor: pointer;
+width: 216px;
+}
+
+#backrev:hover{
+background-image: url(image//animals.jpg);
+color: white;
+}
+#rate{
+position: fixed;
+top: 43%;
+left: 38%;
+font-size:17px; 
+}
+#title{
+    position: relative;
+    left: 440px;; 
+}
+p{
+    position: relative;
+    left: 50px; 
+}
+#rate{
+    position: relative;
+    top:150px; 
+}
+select{
+    position: relative;
+    top:150px; 
+    left: 540px;
+}
+#back{
+    position: fixed;
+    top: 43%;
+    left: 25%;
+}
+.submit{
+    position: fixed;
+    top: 43%;
+    left: 32%;
+}
+h1{
+                 
+    position: relative;
+    left: 510px;
+}
+.buttoncontact{
+background-color: transparent;
+/* margin: 50px 500px 0 200px; */
+margin: 96px 500px 0 200px;
+text-align: center;
+font-weight: bold;
+color: #04498A;
+border-style: solid;
+border-color: #708090;
+border-radius: 30px;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100%;
+position: fixed;
+top: 33%;
+left: 27%;
+cursor: pointer;
+}
+.buttoncontact:hover{
+background-image: url(image//animals.jpg);
+color: white;
+}
+#backrev {
+background-color: transparent;
+/* margin: 76px 465px 0 200px; */
+margin: 126px 465px 0 200px;
+text-align: center;
+font-weight: bold;
+color: #04498A;
+border-style: solid;
+border-color: #708090;
+border-radius: 30px;
+padding: 10px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 100%;
+position: fixed;
+top: 39%;
+left: 27%;
+cursor: pointer;
+width: 216px;
+}
+
+#backrev:hover{
+background-image: url(image//animals.jpg);
+color: white;
+}
+#rate1{
+position: fixed;
+top: 40%;
+left: 38%;
+font-size:17px; 
+
+}

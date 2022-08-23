@@ -1,0 +1,145 @@
+.navbar {
+  overflow: hidden;
+  background-color: #708090;
+  width:102%;
+  margin: -10px;
+  }
+
+ 
+.navbar a {
+  float: right;
+  
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+  text-decoration: none;
+   margin: 23px;
+
+
+   border-radius:10px;
+}
+
+.dropdown {
+  float: right;
+  overflow: hidden;
+   margin: 23px;
+      border-radius:10px;
+	  
+
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color:  #708090;
+  font-family: "Times New Roman-Serif";
+ 
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(4,73,138);
+  text-transform:uppercase;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:white;
+  min-width: 160px;
+  z-index: 1;
+  
+}
+
+.dropdown-content a {
+  float: none;
+  color: rgb(4,73,138);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.logo-home2 img {
+	position:absolute;
+	margin-top:0px;
+	margin-left:10px;
+}
+
+
+body {
+	position: relative;
+	background-image: url(bg2.png);
+	background-size: 1470px 850px;
+}
+
+h1{ 
+				background-color:rgb(4,73,138); 
+				color: white; 
+				position: relative; 
+				text-align: center; 
+				border-radius: 100px;
+				padding: 10px 50px;
+				font-size: 35px; 
+				margin-right: 430px ;
+				margin-left: 420px ;
+			}
+
+		div.border1 {
+				border-style: solid;
+				border-radius: 50px;
+				border-color: transparent; 
+				padding-top: 20px ;
+				margin-left: 380px;
+				margin-right: 350px;
+				background-image: url(borderBG.png);
+			}
+
+		.sub2 {
+				text-align: left;
+				font-family: "Times New Roman", "Serif";
+				color: white;
+				border-radius: 5px;
+				margin-top: 100px;
+				margin-right: 100px;
+				margin-left: 70px;
+				padding: 5px;
+				padding-bottom: 10px;  
+				font-size: 18px;
+			}
+
+		.button_edit{
+
+    background-color: transparent;
+    margin: 20px 280px 10px 210px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4,73,138);
+    border-radius: 30px;
+    padding: 10px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+	}
+
+	.button_edit:hover {
+		background-image: url(image//animals.jpg);
+    color: white;
+		}
+		.button_edit:visited{
+			text-decoration: none;
+		}

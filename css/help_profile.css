@@ -1,0 +1,336 @@
+#profile{
+    border-radius: 50%;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #708090;
+    border-width: 10px;
+    width: 150px;
+    /* position: absolute; */
+    /* top: 192px; */
+    /* right: 659px; */
+    /* max-width: 50%; */
+    /* max-height: 50%; */
+    margin-left: 49%;
+    height: 150px;
+
+}
+
+.Pets_Profile{
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    overflow-x: hidden;}
+
+.profile-photo {
+     border-radius: 50%;
+    overflow: hidden;
+    border-style: solid;
+    border-color: #708090;
+    border-width: 8px;
+    width: 150px;
+    top: 192px;
+    right: 648px;
+    /* max-width: 39%; */
+    /* max-height: 50%; */
+    height: 150px;
+    margin-left: 48%;
+}
+
+.fieldset_Profile {
+    background-size: cover;
+    margin: 100px;
+    margin-top: 110px;
+    width: 450px;
+    margin-left: 390px;
+    border-radius: 50px;
+    padding: 30px;
+    position: absolute;
+    top: 245px;
+    left: 60px;
+}
+
+.Profile_pets {
+       font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color: rgb(4, 73, 138);
+    width: fit-content;
+    padding: 10px 25px;
+    position: relative;
+    left: 46%;
+}
+
+.fieldset_Profile label {
+    font-size: 20px;
+    margin: 10px;
+    background-color: #708090;
+    color: white;
+}
+
+.fieldset_Profile input {
+    border-color: #708090;
+}
+
+.change-lable {
+    position: absolute;
+    color: rgb(4, 27, 78);
+    border-radius: 50px;
+    padding: 5px 10px;
+ 
+    top: 317px;
+    left: 627px;
+
+    z-index: 3;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #708090;
+    margin: 10px;
+}
+
+.profileDetails {
+    color: rgb(73, 148, 223);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+ #button:hover {
+    background-image: url(animals.jpg);
+    color: white;
+} 
+
+#submit {
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: 250px;
+}
+
+/* #submit:hover {
+    background-image: url(image//animals.jpg);
+    color: white;
+} */
+
+#back {
+    background-color: transparent;
+    position: relative;
+    bottom: 15px;
+    right: 55px;
+    margin: 20px 10px -30px 165px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+ #back:hover {
+    background-image: url(image/animals.jpg); 
+     color: white;
+} 
+
+#button {
+    background-color: transparent;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    left: -40px;
+}
+
+.Pets_Profile{
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  #button {
+      background-color: transparent;
+      text-align: center;
+      font-weight: bold;
+      color: #04498A;
+      border-style: solid;
+      border-color: rgb(4, 73, 138);
+      border-radius: 30px;
+      padding: 10px 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      cursor: pointer;
+      position: relative;
+      left: -90px;
+  }
+  #submit {
+      background-color: transparent;
+      text-align: center;
+      font-weight: bold;
+      color: #04498A;
+      border-style: solid;
+      border-color: rgb(4, 73, 138);
+      border-radius: 30px;
+      padding: 10px 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      cursor: pointer;
+      position: relative;
+      left: 225px;
+  }
+  #button:hover {
+      background-image: url(image/animals.jpg); 
+       color: white;
+  } 
+  #submit:hover {
+      background-image: url(image/animals.jpg); 
+       color: white;
+  } 
+  .profile-pho {
+      border-radius: 50%;
+      overflow: hidden;
+      border-style: solid;
+      border-color: #708090;
+      border-width: 10px;
+      width: 140px;
+      position: absolute;
+      top: 192px;
+      right: 600px !important;
+      max-width: 50%; 
+      max-height: 50%;
+  }
+  .change-lable {
+    position: absolute;
+    color: rgb(4, 27, 78);
+    border-radius: 50px;
+    padding: 5px 10px;
+    top: 317px;
+    left: 625px;
+    z-index: 3;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #708090;
+    margin: 10px;
+  }
+  .fieldset_Profile {
+    background-size: cover;
+    margin: 100px;
+      margin-top: 100px;
+      margin-left: 100px;
+    margin-top: 110px;
+    width: 450px;
+    margin-left: 352px;
+    border-radius: 50px;
+    padding: 30px;
+    position: absolute;
+    top: 245px;
+    left: 100px;
+  }
+  span{
+  color:white;}
+  
+.Pets_Profile{
+    background-repeat: no-repeat !important;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  #button {
+      background-color: transparent;
+      text-align: center;
+      font-weight: bold;
+      color: #04498A;
+      border-style: solid;
+      border-color: rgb(4, 73, 138);
+      border-radius: 30px;
+      padding: 10px 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      cursor: pointer;
+      position: relative;
+      left: -95px;
+  }
+  #submit {
+      background-color: transparent;
+      text-align: center;
+      font-weight: bold;
+      color: #04498A;
+      border-style: solid;
+      border-color: rgb(4, 73, 138);
+      border-radius: 30px;
+      padding: 10px 40px;
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+      cursor: pointer;
+      position: relative;
+      left: 220px;
+  }
+  #button:hover {
+      background-image: url(css\\image/animals.jpg); 
+       color: white;
+  } 
+  #submit:hover {
+      background-image: url(image/animals.jpg); 
+       color: white;
+  } 
+  .profile-pho {
+      border-radius: 50%;
+      overflow: hidden;
+      border-style: solid;
+      border-color: #708090;
+      border-width: 10px;
+      width: 140px;
+      position: absolute;
+      top: 192px;
+      right: 600px !important;
+      max-width: 50%; 
+      max-height: 50%;
+  }
+  .change-lable {
+    position: absolute;
+    color: rgb(4, 27, 78);
+    border-radius: 50px;
+    padding: 5px 10px;
+    top: 317px;
+    left: 690px;
+    z-index: 3;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #708090;
+    margin: 10px;
+  }
+  .fieldset_Profile {
+    background-size: cover;
+    margin: 100px;
+      margin-top: 100px;
+      margin-left: 100px;
+    margin-top: 110px;
+    width: 450px;
+    margin-left: 352px;
+    border-radius: 50px;
+    padding: 30px;
+    position: absolute;
+    top: 245px;
+    left: 165px;
+  }
+  span{
+  color:white;
+  }

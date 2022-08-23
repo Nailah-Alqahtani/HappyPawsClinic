@@ -1,0 +1,63 @@
+
+
+body {
+
+    background-image: url(image//design13.png) !important;
+    background-size: cover; 
+    background-attachment: fixed; 
+    font-family: 'Times New Roman', Times, serif;
+    
+    width: 100%;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+
+}
+
+
+.title {
+    background-color: rgb(4, 73, 138);
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 50px;
+    font-size: 35px;
+    margin-top: 40px;
+    margin-right: 290px;
+    margin-left: 360px;
+}
+
+.List ul li {
+     list-style: none;
+    background-color: transparent;
+    text-align: center;
+    color: #ffffff;
+    margin: 0px 374px 0 415px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: 18pt;
+    
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 60px;
+    padding: 46px 85px 20px 143px;
+}
+
+#liDog {
+       background-color: #708090;
+    background-size: 134px;
+    background-repeat: no-repeat;
+    background-position: top left;
+    border-radius: 71px;
+}
+
+.icon {
+    display: block;
+}
+
+#liDog:hover {
+    background-color: rgb(4, 73, 138);
+}
+

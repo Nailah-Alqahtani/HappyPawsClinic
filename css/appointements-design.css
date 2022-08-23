@@ -1,0 +1,123 @@
+
+.title_appointements {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px 40px;
+    position: relative;
+    left: 40% !important;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    /* position: relative;
+    left: 520px;*/
+}
+
+details {
+    border-style: none;
+    position: relative;
+    left: 590px;
+    color: rgb(4, 73, 138);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body_appointements {
+    background-repeat: no-repeat !important;
+    background-size: contain;
+    width: 100%;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    background-color: powderblue;
+
+    
+}
+.title_appointements {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px 40px;
+    position: relative;
+  left: 40% !important;
+}
+
+a.r-icon1 {
+    margin: 10px;
+}
+h1,h2 {
+    color: #708090;
+    font-family: 'Times New Roman', serif;
+    color: rgb(243, 240, 240);
+    background-color: rgb(4, 73, 138);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px 40px;
+    position: relative;
+    left: 560px;
+}
+
+h2 {
+    position: relative;
+    left: 580px;
+    background-color: rgb(4, 73, 138);
+    border-radius: 50px;
+    width: min-content;
+    padding: 10px 40px;
+    margin: 20px;
+}
+
+.title_appointements {
+    text-align: center;
+    margin-top: 30px;
+    border-radius: 50px;
+    width: fit-content;
+    padding: 10px 40px;
+    position: relative;
+    left: 60px;
+}
+
+li {
+    list-style: none;
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    /* position: relative;
+    left: 520px;*/
+}
+
+details {
+    border-style: none;
+    position: relative;
+    left: 570px;
+    color: rgb(95, 92, 93);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    
+
+}
+summary{
+    color:rgb(4, 73, 138);
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    
+}
+
+h2 {
+    position: relative;
+    margin-left: 3%;}

@@ -1,0 +1,106 @@
+/* ____________________________________________________________ */
+
+#file {
+    display: none;
+}
+
+.profile-photo {
+    background-color: gray;
+    border-radius: 150px;
+    overflow: hidden;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-width: 10px;
+    width: 140px;
+    position: r;
+    top: 210px;
+    right: 600px;
+    margin-left: 600px;
+    margin-top: 20px;
+}
+
+.change-lable {
+    position: absolute;
+    color: rgb(4, 27, 78);
+    top: 340px;
+    left: 625px;
+    padding: 5px 10px;
+    border-radius: 50px;
+    z-index: 3;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 700;
+    background-color: #708090;
+    margin: 10px;
+}
+
+
+/* ____________________________________________________________ */
+
+.body_add_pet {
+    position: relative;
+    background-image: url("bg2.png");
+    background-size: cover;
+    background-size: 1470px 950px;
+}
+
+.title_add_new_pet {
+    background-color: rgb(4, 73, 138);
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 50px;
+    font-size: 35px;
+    margin-right: 390px;
+    margin-left: 360px;
+}
+
+div.pg6 {
+    border-style: solid;
+    border-radius: 50px;
+    border-color: transparent;
+    padding: 30px 80px;
+    margin-left: 330px;
+    margin-right: 360px;
+    background-image: url(borderBG.png);
+}
+
+.sub {
+    font-family: "Times New Roman", "Serif";
+    font-size: 21px;
+    text-align: left;
+    color: white;
+    border-radius: 5px;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    padding: 7px;
+    padding-bottom: 10px;
+    font-size: 21px;
+    margin-right: 10px;
+}
+
+.sub2 {
+    font-family: "Courier New", "Monospace";
+    font-size: 16px;
+}
+
+.button {
+    background-color: transparent;
+    margin: 20px 340px -30px 160px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    ;
+    border-radius: 30px;
+    padding: 10px 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+}
+
+.button:hover {
+    background-image: url(animals.jpg);
+    color: white;
+}

@@ -1,0 +1,133 @@
+
+.body_dog_RequestView {
+    background-image: url(image//design.png);
+    background-size: cover;
+    background-position: top;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+}
+
+.title_Request {
+    background-color: rgb(4, 73, 138);
+    color: white;
+    position: relative;
+    text-align: center;
+    border-radius: 100px;
+    padding: 10px 50px;
+    font-size: 35px;
+    margin-right: 390px;
+    margin-left: 360px;
+    margin-top:20px;
+}
+
+
+.fieldset_dogRequestView {
+    background-image: url(image//fieldset3.png);
+    border-color: transparent;
+    border-radius: 50px;
+    margin: 35px 470px 30px 197px;
+    width: 50%;
+    margin-left: 25%;
+    height: 590px;
+    padding: 34px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.labels {
+    font-size: 21px;
+  text-align: left;
+  color: white;
+  border-radius: 5px;
+  margin-top: 70px;
+  margin-bottom: 100px;
+  padding: 7px;  
+  padding-bottom: 10px;
+  font-size: 30px;
+  font-weight: normal;
+  margin-right: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.requestDetails {
+    color: rgb(4,73,138) ;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 160%;
+  font-weight: bold;
+}
+
+
+#back {
+    background-color: transparent;
+    position: relative;
+    bottom: 57px;
+    right: 90px;
+    margin: 20px 10px -30px 165px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 170%;
+    cursor: pointer;
+}
+
+.dayChoices {
+    font-size: 150%;
+    font-weight: bold;
+    color: rgb(4, 73, 138);
+}
+
+
+
+#back {
+    background-color: transparent;
+    position: relative;
+    bottom: 57px;
+    right: 90px;
+    margin: 20px 10px -30px 165px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#back:hover {
+    background-image: url(image//big\ animals.png);
+    color: white;
+}
+
+#backRequestView {
+    background-color: transparent;
+    position: relative;
+    bottom: -50px;
+    right: -65px;
+    margin: 20px 10px -30px 165px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: rgb(4, 73, 138);
+    border-radius: 30px;
+    padding: 10px 80px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    cursor: pointer;
+}
+
+#backRequestView:hover {
+    background-image: url(image//animals.jpg);
+    color: white;
+}
+
+  

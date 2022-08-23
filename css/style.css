@@ -1,0 +1,613 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* min-height: 100vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+.body-home {
+    background: white;
+    background-repeat: repeat;
+    background-image: none;
+    background-size: auto;
+    background-image: url(2.png);
+    background-repeat: repeat-y;
+    background-size: 1531px 494px;
+    width: 100%;
+    min-height: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.pictures2-1 {
+    position: relative;
+    top: 600px;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 3%;
+    padding-bottom: 150PX;
+}
+
+.column2 {
+    float: center;
+    width: 33.33%;
+    padding: 15px;
+    padding-top: 20px;
+    border-radius: 3%;
+    padding-bottom: 50PX;
+    padding-left: 10PX;
+    left: 100px;
+    position: center;
+}
+
+.column img {
+    border-radius: 3%;
+}
+
+.column2 img {
+    border-radius: 3%;
+    margin-left: 230px;
+    position: center;
+}
+
+
+/* Clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.font-in-center2 {
+    color: GrayText;
+    font-family: Times New Roman-Serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 299px !important;
+}
+
+.font-in-center3 {
+    color: GrayText;
+    font-family: Times New Roman-Serif;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.Surgery2 {
+    color: rgb(4, 73, 138);
+    align-items: right;
+    justify-content: right;
+    text-align: right;
+    margin-right: 160px;
+    padding-top: 20px;
+    font-family: Times New Roman-Serif;
+}
+
+
+/* .Emergency{
+		color: rgb(4,73,138);
+       margin-left: 13%;
+    font-family: Times New Roman-Serif;
+	} */
+
+.treatment {
+    color: rgb(4, 73, 138);
+    position: absolute;
+    top: 849px;
+    left: 540px;
+    font-family: Times New Roman-Serif;
+}
+
+
+/******************************************************************************/
+
+footer {
+    margin-top: auto;
+    background-color: #708090;
+    height: auto;
+    width: 100vw;
+    font-family: "Times New Roman-Serif";
+    padding-top: 40px;
+    color: white;
+}
+
+.footer-centet {
+    position: relative;
+    align-items: right;
+    justify-content: center;
+    top: 40px;
+    text-align: left;
+    margin-left: 80px;
+}
+
+.footer-left {
+    position: relative;
+    bottom: 78px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+.footer-left h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 20px;
+    position: relative;
+    left: 300px;
+}
+
+.footer-centet h3 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 20px;
+    position: relative;
+    left: 60px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    margin: 7px 0 60px 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.footer-left a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/****************************************************************/
+
+.navbar {
+    overflow: hidden;
+    background-color: #708090;
+    width: 100%;
+}
+
+.navbar a {
+    float: right;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 23px;
+    border-radius: 10px;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+    margin: 23px;
+    border-radius: 10px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #708090;
+    font-family: "Times New Roman-Serif";
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+    background-color: rgb(4, 73, 138);
+    text-transform: unset;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(4, 73, 138);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+
+/* .dropdown-content a:hover {
+        background-color: #ddd;
+    } */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.logo-home2 img {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+
+
+/***************************************************starting css for about us bage************************************8*/
+
+.about-us-body {
+    width: 100%;
+    min-height: 70vw;
+    background: #B0E0E6;
+}
+
+.profile-body {
+    width: 100%;
+    min-height: 90vw;
+    background-color: #B0E0E6;
+}
+
+.Pass-body {
+    width: 100%;
+    min-height: 60vw;
+    background-color: #B0E0E6;
+}
+
+.box-out2 {
+    width: 1000px;
+    background-image: url(about1.png);
+    height: 600px;
+    background-size: cover;
+    background-color: white;
+    margin: auto;
+    border-radius: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box-out2 h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(4, 73, 138);
+    text-align: center;
+    font-size: 45px;
+}
+
+.box-out2 p {
+    font-family: "Times New Roman", Times, serif;
+    color: GrayText;
+    text-align: center;
+    font-size: 18px;
+}
+
+.location-des {
+    margin-top: 70px;
+}
+
+.about-des2 {
+    margin-top: 50px;
+}
+
+
+/***************************************************ENDUNG css for about us bage<**************************************/
+
+
+/***************************************************STARTIN css for about us in manegar bage(edit)************************/
+
+.edit-about-us {
+    color: white;
+    background-color: #708090;
+    position: relative;
+    bottom: 0;
+    left: 445px;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 12px;
+    text-transform: capitalize;
+}
+
+.About-us-manegar {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(4, 73, 138);
+    font-size: 15px;
+}
+
+.submit-bottom {
+    position: relative;
+    top: 1;
+    left: 445px;
+}
+
+.button-edit-manager2 a {
+    position: relative;
+    background-color: #708090;
+    text-decoration: none;
+    color: white;
+    top: 10px;
+    padding: 10px 20px;
+    left: 430px;
+    border-radius: 4px;
+}
+
+
+/***************************************************ENDING css for about us in manegar bage(edit)************************/
+
+
+/******************************************** start css for owner profile******************************/
+
+
+/* .manage2 {
+        width: 1000px;
+        background-image: url(about1.png);
+        height: 805px;
+        background-size: cover;
+        background-color: white;
+        margin: auto;
+        margin-top: 100px;
+        padding: 50px;
+        border-radius: 3%;
+        font-family: 'Times New Roman', Times, serif;
+    }
+     */
+
+.manage3 {
+    width: 1000px;
+    background-image: url(about1.png);
+    height: 400;
+    background-size: cover;
+    background-color: white;
+    margin: auto;
+    margin-top: 150px;
+    padding: 50px;
+    border-radius: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+fieldset label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-delete2 {
+    position: relative;
+    top: 1;
+    left: 445px;
+}
+
+
+/******************************************** end css for owner profile******************************/
+
+.button2 {
+    background-color: transparent;
+    margin: 20px 496px 0 387px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: relative;
+    top: 15%;
+    right: 200px;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+/* .button2:hover {
+    background-image: url(button1.png);
+    /* color: white; */
+
+
+/* } */
+
+#back {
+    background-color: transparent;
+    margin: 20px 500px 0 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: relative;
+    top: 15%;
+    right: 200px;
+    cursor: pointer;
+    width: 150px;
+}
+
+
+/* #back:hover {
+        background-image: url(button1.png);
+        /* color: white; */
+
+
+/* } */
+
+*/ .submit-bottom-edit {
+    margin: -6px 500px 4px 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: relative;
+    top: 15%;
+    right: 200px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.submit-bottom-edit2 {
+    margin: -6px 50px 4px 500px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50%;
+    position: relative;
+    top: 10%;
+    right: 200px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.submit-bottom-edit:hover {
+    background-image: url(button1.png);
+    color: white;
+}
+
+.submit-bottom-edit2:hover {
+    background-image: url(button1.png);
+    color: white;
+}
+
+.select-user {
+    display: none;
+    cursor: pointer;
+}
+
+.select-user2 {
+    cursor: pointer;
+}
+
+
+/* i */
+
+.about_body {
+    width: 100% !important;
+    min-height: 70vw !important;
+    background: #B0E0E6 !important;
+}
+
+.about_edit_button {
+    margin: -6px 494px -4px 200px !important;
+    text-align: center !important;
+    font-weight: bold !important;
+    color: #04498A !important;
+    border-style: solid !important;
+    border-color: #708090 !important;
+    border-radius: 30px !important;
+    padding: 10px !important;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    position: relative;
+    top: 164%;
+    right: 200px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.choose_file {
+    margin: -6px 499px 4px 206px;
+    margin: -6px 228px 4px 206px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 48%;
+    position: relative;
+    top: 170%;
+    right: 0px;
+    cursor: pointer;
+}
+
+.choose_file:hover {
+    background-image: url(image/animals.jpg);
+}
+
+.about_edit_button:hover {
+    background-image: url(image/animals.jpg);
+}
+
+.about_back_button {
+    margin: -6px 494px 4px 200px;
+    text-align: center;
+    font-weight: bold;
+    color: #04498A;
+    border-style: solid;
+    border-color: #708090;
+    border-radius: 30px;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 44%;
+    position: relative;
+    top: -9%;
+    right: 202px;
+    cursor: pointer;
+    width: 149px;
+}
+
+.about_back_button:hover {
+    background-image: url(image/animals.jpg);
+}
+
+.about_us_edit_header {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(4, 73, 138);
+    font-size: 15px;
+}
+
+.box_fieldset {
+    width: 800px;
+    background-image: url(about1.png);
+    height: 600px;
+    background-size: cover;
+    background-color: white;
+    margin: auto;
+    border-radius: 3%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box_fieldset h1 {
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(4, 73, 138);
+    text-align: center;
+    font-size: 45px;
+}
+
+.box_fieldset p {
+    font-family: "Times New Roman", Times, serif;
+    color: GrayText;
+    text-align: center;
+    font-size: 18px;
+}
